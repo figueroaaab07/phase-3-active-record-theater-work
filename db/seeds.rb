@@ -1,0 +1,13 @@
+Role.create(character_name: "Kirk")
+Role.create(character_name: "Spock")
+Role.create(character_name: "Uhura")
+Role.create(character_name: "Chekov")
+
+Audition.create(actor: "William Shatner", location: "San Francisco", hired: false, role_id: 1)
+Audition.create(actor: "Leonard Nimoy", location: "San Francisco", hired: false, role_id: 2)
+Audition.create(actor: "Nichelle Nichols", location: "San Francisco", hired: false, role_id: 3)
+Audition.create(actor: "Walter Koenig", location: "San Francisco", hired: false, role_id: 4)
+Audition.create(actor: "DeForest Kelley", location: "Los Angeles", hired: false, role_id: 1)
+Audition.create(actor: "Leonard Nimoy", location: "Boston", hired: false, role_id: 2)
+Audition.create(actor: "Majel Barrett", location: "Seattle", hired: false, role_id: 3)
+Audition.create(actor: "James Dohan", location: "Austin", hired: false, role_id: 4)
